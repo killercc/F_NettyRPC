@@ -1,0 +1,42 @@
+2022-04-07 17:54:45 ERROR Decoder:40 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Unable to find class: 96d135c9-9e40-4ae4-9eca-0194a13e74d9
+Serialization trace:
+result (com.pojo.RpcResp)
+2022-04-07 17:58:27 ERROR Decoder:40 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Unable to find class: da9153e4-bffe-4ab2-8f34-c4433d32e405
+Serialization trace:
+result (com.pojo.RpcResp)
+2022-04-07 17:59:58 ERROR Decoder:40 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Unable to find class: b0bd3318-8e9a-4dfd-b451-e02f9f63390a
+Serialization trace:
+result (com.pojo.RpcResp)
+2022-04-07 18:17:34 ERROR Decoder:40 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Unable to find class: 741b723e-299a-4798-a0dd-c7f9dd49ad9d
+Serialization trace:
+result (com.pojo.RpcResp)
+2022-04-07 20:35:56 ERROR Decoder:40 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Unable to find class: e67393df-a904-4659-b916-2cbc84029bfc
+Serialization trace:
+result (com.pojo.RpcResp)
+2022-04-07 21:13:32 ERROR Decoder:40 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Unable to find class: 702cded1-c89a-4bab-8652-d69090be8ce2
+Serialization trace:
+result (com.pojo.RpcResp)
+2022-04-07 21:15:01 ERROR Decoder:40 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Unable to find class: 94962832-638d-4433-a921-540f99b6a2f7
+Serialization trace:
+result (com.pojo.RpcResp)
+2022-04-07 21:16:50 ERROR Decoder:40 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Unable to find class: 2cd51687-0301-4273-aaa5-562171fc7f1e
+Serialization trace:
+result (com.pojo.RpcResp)
+2022-04-07 21:36:01 ERROR Decoder:40 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Unable to find class: c3bb63e5-2738-4984-ba50-173d588ea056
+Serialization trace:
+result (com.pojo.RpcResp)
+2022-04-19 15:27:59 ERROR CuratorFrameworkImpl:703 - Background exception was not retry-able or retry gave up
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:823)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:432)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.getData(CuratorFrameworkImpl.java:466)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.getDataAndStat(PathChildrenCache.java:579)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.processChildren(PathChildrenCache.java:709)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.access$200(PathChildrenCache.java:69)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache$4.processResult(PathChildrenCache.java:505)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.sendToBackgroundCallback(CuratorFrameworkImpl.java:883)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.processBackgroundOperation(CuratorFrameworkImpl.java:653)
+	at org.apache.curator.framework.imps.WatcherRemovalFacade.processBackgroundOperation(WatcherRemovalFacade.java:152)
+	at org.apache.curator.framework.imps.GetChildrenBuilderImpl$2.processResult(GetChildrenBuilderImpl.java:187)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:617)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:500)

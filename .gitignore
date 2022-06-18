@@ -1,0 +1,5 @@
+# Project exclude paths
+/common/target/
+/netty-rpc-client/target/
+/netty-rpc-server/target/
+/netty-rpc-test/target/
